@@ -156,6 +156,7 @@ return [
         Illuminate\Notifications\NotificationServiceProvider::class,
         Illuminate\Pagination\PaginationServiceProvider::class,
         Illuminate\Pipeline\PipelineServiceProvider::class,
+
         Illuminate\Queue\QueueServiceProvider::class,
         Illuminate\Redis\RedisServiceProvider::class,
         Illuminate\Auth\Passwords\PasswordResetServiceProvider::class,
@@ -167,6 +168,8 @@ return [
         /*
          * Package Service Providers...
          */
+
+        Kreait\Laravel\Firebase\ServiceProvider::class,
 
         /*
          * Application Service Providers...

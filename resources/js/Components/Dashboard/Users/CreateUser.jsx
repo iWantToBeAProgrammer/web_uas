@@ -1,7 +1,7 @@
 import { useForm } from '@inertiajs/inertia-react'
 import React from 'react'
 
-export default function CreateUser({close}) {
+export default function CreateUser({close},  props) {
 
     const {data, setData, post, reset, errors} = useForm({ name: '', email: '', username: '', address: '', password: '', });
 
